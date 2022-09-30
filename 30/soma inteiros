@@ -1,0 +1,27 @@
+public class Class {
+
+    public static void main (String [] args){
+
+
+
+        int notinha1 = 66;
+        int notinha2 = 80;
+        int notinha3 = 88;
+        int notinha4 = 62;
+
+        double somamedia = notinha1+notinha2+notinha3+notinha4;
+
+
+        if(somamedia>=240){
+            System.out.println("brabao pae,passou");
+            System.out.println("a nota do aluno foi maior de: "+somamedia);
+
+
+        }
+
+        else{
+            System.out.println("se fudeukk");
+            System.out.println("a nota do aluno foi maior de: "+somamedia);
+        }
+    }
+}
