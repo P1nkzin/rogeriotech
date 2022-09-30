@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Class {
+
+    public static void main (String [] args){
+
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Digite a notinha1: ");
+        double notinha1 = entrada.nextDouble();
+        System.out.println("Digite a notinha2: ");
+        double notinha2 = entrada.nextDouble();
+        System.out.println("Digite a notinha3: ");
+        double notinha3 = entrada.nextDouble();
+        System.out.println("Digite a notinha4: ");
+        double notinha4 = entrada.nextDouble();
+
+        double somamedia = (notinha1+notinha2+notinha3+notinha4)/4;
+
+
+        if(somamedia>=60){
+
+            System.out.println("brabao pae,passou");
+            System.out.println("a nota do aluno foi maior de: "+somamedia);
+
+
+        }
+
+        else{
+            System.out.println("se fudeukk");
+            System.out.println("a nota do aluno foi maior de: "+somamedia);
+        }
+    }
+}
