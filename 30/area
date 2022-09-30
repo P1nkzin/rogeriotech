@@ -1,0 +1,13 @@
+public class Class {
+
+    public static void main(String[] args) {
+
+
+        int base = 10;
+        int altura = 60;
+
+        int área = (base*altura)/2;
+        System.out.println("área = "+área);
+    }
+
+}
